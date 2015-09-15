@@ -36,7 +36,7 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true, :no_intra_emph
 set :relative_links, true
 activate :relative_assets
 activate :navtree do |options|
-  options.ignore_files = ['readme.md', 'README.md', 'readme.txt', 'license.md', 'CNAME', 'robots.txt', 'humans.txt', '404.md']
+  options.ignore_files = ['readme.md', 'README.md', 'readme.txt', 'license.md', 'CNAME', 'robots.txt', 'humans.txt', '404.md', 'sitemap.xml']
   options.ignore_dir = ['themes']   # All the config directories are automatically ignored.
   options.promote_files = ['index.md.erb']
   options.home_title = 'Front Page'

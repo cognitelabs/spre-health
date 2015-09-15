@@ -184,7 +184,7 @@ prototyping:
     description: "Package Total:"
     explanation: false
     base: '$1,000'
-    premium: '$3,000'
+    premium: '$4,000'
 
 
 # Todo: These descriptions work fine for the table...but what about long copy that explains what they are/mean? Maybe with visuals?
