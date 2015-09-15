@@ -1,15 +1,16 @@
 ---
 defaults: &defaults
-  quantity: 'x'
+  quantity: '&#x2713;'
   included: true
 
 services:  
-  information_architecture: true
-  seo: true
-  content_strategy: true
-  web_design: true
-  web_development: true
-  reporting: true
+  information_architecture: false
+  seo: false
+  content_strategy: false
+  web_design: false
+  web_development: false
+  reporting: false
+  prototyping: true
 
 information_architecture:
   goals: 
@@ -124,6 +125,66 @@ reporting:
       tracking URLs for your landing pages, and design a dashboard that
       reflects your marketing goals."
     <<: *defaults
+
+prototyping:
+  design_screens_web:
+    description: "Design key screens, suited to a desktop environment"
+    explanation: "We'll work with you to identify the key screens for your 3 stakeholders and
+      translate them into a realistic-looking desktop interface, in order elicit quality feedback from those stakeholders."
+    base: '9'
+    premium: '21'
+  design_screens_mobile:
+    description: "Design key screens, suited to a mobile environment"
+    explanation: "We'll work with you to identify the key screens for your 3 stakeholders and
+      translate them into a realistic-looking desktop interface, in order elicit quality feedback from those stakeholders."
+    base: '9'
+    premium: '21'
+  design_interactions_web:
+    description: "Design an interactive prototype for the web"
+    explanation: "We'll implement a dynamic protoype of a web application, in order to test user feedback of the system. We'll design 
+      for each ('initial', 'data-rich', and 'error') state, to make sure bases are covered. A prototype at this level should also make 
+      it easier for your development team to implement."
+    base: ''
+    premium: '&#x2713;'
+  design_interactions:
+    description: "Design an interactive prototype for a mobile device"
+    explanation: "We'll implement a dynamic protoype of a web application, in order to test user feedback of the system. We'll design 
+      for each ('initial', 'data-rich', and 'error') state, to make sure bases are covered. A prototype at this level should also make 
+      it easier for your development team to implement."
+    base: ''
+    premium: '&#x2713;'
+  design_sprint:
+    description: "Facilitate a design sprint"
+    explanation: "Design sprints are a process intended to design, protoype, and test ideas about critical business
+      questions. Developed at <a href='http://www.gv.com/sprint/'>Google Ventures</a>, these sprints can help identify
+      blind spots before they're too expensive."
+    base: ''
+    premium: '&#x2713;'
+  storyboards:
+    description: "Create key user storyboards"
+    explanation: "Create key user storyboards intended to show how users accomplish key goals in the software application. These form the
+      basis of user stories."
+    base: '9'
+    premium: '21'
+  user_stories:
+    description: "Create key user stories for product roadmap"
+    explanation: "User stories bridge the gap between design and development, from the user's perspective. They are functionally a communication
+      device and a roadmap that provides concrete milestones for a development team to be able to estimate, organize, and implement work. We describe
+      them in detail in <a href='http://www.cognitelabs.com/blog/writing-user-stories-to-build-great-apps'>this blog post</a>, where we also provide a
+      <a href='http://www.cognitelabs.com/templates/writing-user-stories'>free template</a> to demonstrate how they are created."
+    base: ''
+    premium: '&#x2713;'
+  user_interviews:
+    description: "Facilitate design conversations with users"
+    explanation: "Speaking with users and soliciting their feedback on applications is the best way to learn how they perceive the application. We'll 
+    work with you to seek users, share the interactive prototype, and garner feedback."
+    base: ''
+    premium: '&#x2713;'
+  pricing:
+    description: "Package Total:"
+    explanation: false
+    base: '$1,000'
+    premium: '$3,000'
 
 
 # Todo: These descriptions work fine for the table...but what about long copy that explains what they are/mean? Maybe with visuals?

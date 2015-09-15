@@ -1,5 +1,10 @@
 # Scope of Services
-Cognite Labs is excited to work with <%= data.client.client_name %>. A summary of the services we expect to provide includes (details on next page):
+Cognite Labs is excited to work with <%= data.client.client_name %> on the prototype.
+
+Given our last conversation, I have put together two separate scopes of work - one that assumes a minimal design
+effort on our behalf and one that involves a more full-service approach.  
+
+A summary of the services we expect to provide includes (details on next page):
 
 <% if data.scope.services.information_architecture %>    
   <table>
@@ -115,6 +120,32 @@ Cognite Labs is excited to work with <%= data.client.client_name %>. A summary o
 							<td style="text-align: center;"> <%= q['quantity'] %> </td>
 						</tr>
 					<% end %>		 
+				<% end %>
+			<% end %>
+  	</tbody>
+  </table>
+<% end %>
+
+<% if data.scope.services.prototyping %>    
+  <table style="font-size: 14px;">
+  	<thead>
+  		<th style="border-collapse: collapse;" colspan="3">Prototype</th>
+  	</thead>
+  	<tbody>
+  		<tr>
+  			<td></td>
+  			<td>Basic</td>
+  			<td>Full-Service</td>
+  		</tr>
+  		<% data.scope.prototyping.each do |d| %>
+				<% d.each do |q| %>
+					<% if q['description'] %>
+						<tr>
+							<td> <%= q['description'] %> </td>
+							<td style="text-align: center;"> <%= q['base'] %> </td>
+							<td style="text-align: center;"> <%= q['premium'] %> </td>
+						</tr>
+					<% end %>
 				<% end %>
 			<% end %>
   	</tbody>

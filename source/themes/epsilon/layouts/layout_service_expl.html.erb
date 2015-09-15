@@ -117,6 +117,18 @@
                   <% end %>
                 <% end %>
               <% end %>
+
+              <% if data.scope.services.prototyping %>    
+                <h2>Prototyping</h2>
+                <% data.scope.prototyping.each do |d| %>
+                  <% d.each do |q| %>
+                    <% if q['explanation'] %>
+                      <h3><%= q['description'] %></h3>
+                      <p><%= q['explanation'] %></p>
+                    <% end %>
+                  <% end %>
+                <% end %>
+              <% end %>
             </div>
 
             <nav class="main-content-nav clearfix" role="navigation">
