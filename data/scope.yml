@@ -130,13 +130,13 @@ prototyping:
   design_screens_web:
     description: "Design key screens, suited to a desktop environment"
     explanation: "We'll work with you to identify the key screens for your 3 stakeholders and
-      translate them into a realistic-looking desktop interface, in order elicit quality feedback from those stakeholders."
+      translate them into a realistic-looking desktop interface, in order to elicit quality feedback from those stakeholders."
     base: '9'
     premium: '21'
   design_screens_mobile:
     description: "Design key screens, suited to a mobile environment"
     explanation: "We'll work with you to identify the key screens for your 3 stakeholders and
-      translate them into a realistic-looking desktop interface, in order elicit quality feedback from those stakeholders."
+      translate them into a realistic-looking mobile interface, in order to elicit quality feedback from those stakeholders."
     base: '9'
     premium: '21'
   design_interactions_web:
