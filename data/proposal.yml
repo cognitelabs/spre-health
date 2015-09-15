@@ -1,5 +1,5 @@
 proposal_title: Prototyping for Personalized Preventative Care
-proposal_date: September 11, 2015
+proposal_date: September 15, 2015
 proposal_author: Jesse Flores
 proposal_price: "between $1,000 and $4,000"
 objectives:  
@@ -13,4 +13,4 @@ milestones:
   - 4. Within 2 weeks after Milestone 3, we will have created key storyboards and designed interactive prototypes
   - 5. Within 2 weeks after Milestone 4, we will have completed the user stories for product roadmap and handed off the prototype.
 restrictions:  
-  - The development of working software
+  - The development of deployment ready software
